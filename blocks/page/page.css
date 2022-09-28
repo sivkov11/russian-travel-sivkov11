@@ -1,0 +1,19 @@
+.page {
+  font-family: Inter;
+  margin: 0 auto;
+  color: white;
+  max-width: 1184px;
+}
+
+@media (max-width: 1023px) {
+  .page {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page {
+    max-width: 720px;
+  }
+}
+
