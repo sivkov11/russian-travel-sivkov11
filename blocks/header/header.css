@@ -18,6 +18,12 @@
 
 @media (max-width: 767px) {
   .header {
+    margin: 16px 24px 0;
+  }
+}
+
+@media (max-width: 424px) {
+  .header {
     margin: 16px 16px 0;
   }
 }

@@ -17,3 +17,9 @@
     margin: 48px 0 88px;
   }
 }
+
+@media (max-width: 424px) {
+  .lead {
+    margin: 48px 0 64px;
+  }
+}
