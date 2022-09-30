@@ -20,3 +20,7 @@
     margin-bottom: 66px;
   }
 }
+
+.cover:hover .cover__overlay {
+  opacity: 0.8;
+}
