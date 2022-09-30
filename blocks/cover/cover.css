@@ -3,8 +3,20 @@
   justify-content: center;
   align-items: center;
   position: relative;
+  margin-bottom: 92px;
+  color: white;
+  background-image: url(/images/cover__background.jpg);
+
 }
 
-.cover:hover {
-  
+@media (max-width: 1023px) {
+  .cover {
+    margin-bottom: 88px;
+  }
+}
+
+@media (max-width: 767px) {
+  .cover {
+    margin-bottom: 66px;
+  }
 }
