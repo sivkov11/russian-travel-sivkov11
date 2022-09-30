@@ -2,6 +2,13 @@
 align-self: end;
 }
 
+@media (max-width: 767px) {
+  .place__website {
+    margin: 0 24px;
+  }
+}
+
+
 @media (max-width: 424px) {
   .place__website {
     margin: 0 16px;

@@ -10,7 +10,6 @@
 @media (max-width: 767px) {
   .lead__title {
     max-width: 288px;
-    font-weight: 900;
     font-size: 40px;
     line-height: 44px;
   }

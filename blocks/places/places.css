@@ -5,16 +5,22 @@
   margin-bottom: 92px;
 }
 
+@media (max-width: 1279px) {
+  .places {
+    margin: 0 48px 92px;
+  }
+}
+
 @media (max-width: 1023px) {
   .places {
     gap: 73px;
-    margin-bottom: 90px;
+    margin: 0 24px 90px;
   }
 }
 
 @media (max-width: 767px) {
   .places {
     gap: 64px;
-    margin-bottom: 66px;
+    margin: 0 0 66px;
   }
 }

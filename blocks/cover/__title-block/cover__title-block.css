@@ -2,8 +2,14 @@
   display: flex;
   position: absolute;
   flex-direction: column;
-  align-self: center;
   align-items: center;
   text-align: center;
   z-index: 1;
+  gap: 32px;
   }
+
+ @media (max-width: 767px) {
+  .cover__title-block {
+    gap: 16px;
+  }
+ }
